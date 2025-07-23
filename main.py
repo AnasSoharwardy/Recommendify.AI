@@ -8,12 +8,10 @@ import os
 
 # Enter api key in .env
 
-# Load environment variables from .env file
 load_dotenv()
 
 app = FastAPI()
 
-# Allow Streamlit frontend to access the API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -33,14 +31,12 @@ async def analyze_product(req: QueryRequest):
     try:
         final_state = graph.invoke({"query": query})
 
-        # Case: product is too generic
         if final_state.get("error"):
             return {
                 "success": False,
                 "error": final_state["error"]
             }
 
-        # Case: success
         return {
             "success": True,
             "verdict": final_state["verdict"],
