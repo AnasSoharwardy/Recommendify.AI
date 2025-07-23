@@ -1,0 +1,12 @@
+langchain
+langchain-core
+langchain-community
+langchain-groq
+groq
+fastapi
+uvicorn
+streamlit
+python-dotenv
+pydantic
+requests
+httpx==0.27.2
