@@ -1,21 +1,26 @@
 # 🤖 Recommendify.AI — AI-Powered YouTube Product Review Analyzer
 
-Tired of watching 10 different YouTube reviews before buying one product?
+**Tired of watching 10 different YouTube reviews before buying one product?**  
+**Recommendify.ai** is an AI-based product review assistant that saves you time and helps you make smarter buying decisions.
 
-Recommendify.ai is an AI-based product review assistant that saves you time and helps you make smarter buying decisions.  
+
 Just enter a product name, and our system:
 
-✅ Searches for the top YouTube video reviews  
-✅ Filters out irrelevant videos and content  
-✅ Extracts pros and cons from transcripts  
-✅ Aggregates the insights  
-✅ Gives you a final verdict (Recommended / Not Recommended)  
+- Searches for the top YouTube video reviews  
+- Filters out irrelevant videos and content  
+- Extracts pros and cons from transcripts  
+- Aggregates the insights  
+- Gives you a final verdict (Recommended / Not Recommended)  
+
+
+https://github.com/user-attachments/assets/15b4ad76-4cba-4c93-9cfb-4c5f6b5ce23b
+
 
 ---
 
 ## How It Works (Multi-Agent Pipeline)
 
-This project uses a LangGraph-powered multi-agent workflow to simulate the decision-making of an AI assistant.
+This project uses a LangGraph-powered multi-agent workflow to simulate an intelligent decision-making process.
 
 ### Agents Involved:
 
