@@ -40,12 +40,10 @@ if st.button("Recommendify!"):
 
             data = response.json()
 
-            # Case: Generic product
             if not data.get("success"):
                 st.warning(f"{data.get('error', 'Unknown error')}")
                 st.stop()
 
-            # Case: Successful analysis
             st.success("✅ Analysis complete!")
 
             st.subheader("Final Verdict")
