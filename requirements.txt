@@ -2,6 +2,9 @@ langchain
 langchain-core
 langchain-community
 langchain-groq
+langgraph
+youtube-search-python
+youtube-transcript-api==1.1.1
 groq
 fastapi
 uvicorn
